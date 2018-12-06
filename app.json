@@ -1,7 +1,7 @@
 {
   "id": "577ca780-4cf7-42f2-933f-7ac714253d78",
   "name": "SD Seminar",
-  "publisher": "Default publisher",
+  "publisher": "D. E. Veloper",
   "brief": "This is a Seminar Module",
   "description": "This is my awesome Seminar module - Buy me!",
   "version": "1.0.0.0",
@@ -9,7 +9,7 @@
   "EULA": "",
   "help": "",
   "url": "http://ba-consult.dk/downloads/warrenty.txt",
-  "logo": "./Seminar.jpg",
+  "logo": "./Images/Seminar.jpg",
   "capabilities": [],
   "dependencies": [],
   "screenshots": [],
