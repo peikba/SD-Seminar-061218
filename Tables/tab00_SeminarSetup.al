@@ -18,6 +18,7 @@ table 50100 "CSD Seminar Setup"
             TableRelation = "No. Series";
             DataClassification=SystemMetadata;
         }
+
         field(30;"Seminar Registration Nos.";code[20])
         {
             Caption = 'Seminar Registration Nos.';
