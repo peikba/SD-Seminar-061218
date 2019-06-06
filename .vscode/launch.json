@@ -6,11 +6,11 @@
             "request": "launch",
             "name": "localhost",
             "server": "http://localhost",
-            "serverInstance": "BC130",
+            "serverInstance": "BC140",
             "authentication": "Windows",
             "breakOnError": true,
             "port": 7049,
-            "schemaUpdateMode": "Recreate" 
+            "schemaUpdateMode": "ForceSync" 
         }
     ]
 }

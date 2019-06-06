@@ -13,9 +13,11 @@ pageextension 50100 "CSD ResourceCardExt" extends "Resource Card"
         {
             field("CSD Resource Type"; "CSD Resource Type")
             {
+                ApplicationArea = All;
             }
             field("CSD Quantity Per Day"; "CSD Quantity Per Day")
             {
+                ApplicationArea = All;
             }
         }
 
@@ -24,17 +26,17 @@ pageextension 50100 "CSD ResourceCardExt" extends "Resource Card"
 
             group("CSD Room")
             {
-                Caption='Room';
+                Caption = 'Room';
                 Visible = ShowMaxField;
                 field("CSD Maximum Participants"; "CSD Maximum Participants")
                 {
-                    
+                    ApplicationArea = All;
                 }
             }
         }
     }
 
-    trigger OnOpenPage();
+    trigger OnAfterGetRecord();
     begin
         ShowMaxField := (Type = Type::Machine);
         CurrPage.Update(false);

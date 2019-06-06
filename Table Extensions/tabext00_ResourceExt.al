@@ -20,14 +20,17 @@ tableextension 50100 "CSD ResourceExt" extends Resource
             Caption = 'Resource Type';
             OptionMembers = "Internal","External";
             OptionCaption = 'Internal,External';
+            DataClassification=CustomerContent;
         }
         field(50102;"CSD Maximum Participants";Integer)
         {
             Caption = 'Maximum Participants';
+            DataClassification=CustomerContent;
         }
         field(50103;"CSD Quantity Per Day";Integer)
         {
             Caption = 'Quantity Per Day';
+            DataClassification=CustomerContent;
         }        
     }
 }

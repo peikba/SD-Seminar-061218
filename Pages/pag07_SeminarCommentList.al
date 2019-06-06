@@ -15,13 +15,16 @@ page 50107 "CSD Seminar Comment List"
             {
                 field(Date;Date)
                 {
+                    ApplicationArea=All;
                 }
                 field(Code;Code)
                 {
                     Visible=false;
+                    ApplicationArea=All;
                 }
                 field(Comment;Comment)
                 {    
+                    ApplicationArea=All;
                 }
             }
         }

@@ -10,21 +10,25 @@ table 50100 "CSD Seminar Setup"
         {
             Caption = 'Primary Key';
             TableRelation = "No. Series";
+            DataClassification=SystemMetadata;
         }
         field(20;"Seminar Nos.";Code[20])
         {
             Caption = 'Seminar Nos.';
             TableRelation = "No. Series";
+            DataClassification=SystemMetadata;
         }
         field(30;"Seminar Registration Nos.";code[20])
         {
             Caption = 'Seminar Registration Nos.';
             TableRelation = "No. Series";
+            DataClassification=SystemMetadata;
         }
         field(40;"Posted Seminar Reg. Nos.";code[20])
         {
             Caption = 'Posted Seminar Reg. Nos.';
             TableRelation = "No. Series";
+            DataClassification=SystemMetadata;
         }
     }
 
