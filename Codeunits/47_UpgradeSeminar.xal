@@ -1,0 +1,38 @@
+codeunit 50147 "CSD Upgrade Seminar"
+{
+    Subtype = Upgrade;
+
+    trigger OnRun()
+    begin
+
+    end;
+
+
+    trigger OnCheckPreconditionsPerCompany()
+    var
+        myInt: Integer;
+        Info: ModuleInfo;
+
+    begin
+        NavApp.GetModuleInfo(Info);
+        NavApp.
+        Info.
+    end;
+
+trigger OnUpgradePerCompany()
+    var
+        myInt: Integer;
+    begin
+
+    end;
+
+    trigger OnValidateUpgradePerCompany()
+    var
+        myInt: Integer;
+    begin
+
+    end;
+
+    var
+        myInt: Integer;
+}
